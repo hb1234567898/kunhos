@@ -1,0 +1,1 @@
+import{D as a,E as s,G as r}from"./index-7891c5ed.js";const i=a("Detail",{state:()=>({hosInfo:{},depArr:[]}),actions:{async getHospital(e){let t=await s(e);t.code==200&&(this.hosInfo=t.data)},async getDepartemnt(e){let t=await r(e);t.code==200&&(this.depArr=t.data)}},getters:{}});export{i as u};

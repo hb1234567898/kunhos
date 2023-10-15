@@ -1,0 +1,1 @@
+import{g as n,q as o,S as r,o as s,c as l}from"./index-7891c5ed.js";const _=n({__name:"index",setup(a){let e=o();r(JSON.stringify(e.query));let t=document.querySelector("html");return t.style.display="none",(c,u)=>(s(),l("div",null," 123 "))}});export{_ as default};
